@@ -6,7 +6,7 @@ const bodyParser = require('body-parser');
 
 admin.initializeApp({
     credential: admin.credential.cert(cert),
-    databaseURL: "https://clientsdb-ffc9e-default-rtdb.firebaseio.com"
+    databaseURL: "https://clientsdb.firebaseio.com"
 });
 
 const db = admin.database();
